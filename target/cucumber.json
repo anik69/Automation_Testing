@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5240352202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch_StepDefinitions.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Google Search page Test",
+        "description": "",
+        "id": "user-test-google-search-page;google-search-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2428260984,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Google page",
+            "match": {
+              "location": "GoogleSearch_StepDefinitions.user_is_on_Google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2175545074,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"R2D2 R2D2\" into Search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "R2D2 R2D2",
+                  "offset": 13
+                }
+              ],
+              "location": "GoogleSearch_StepDefinitions.user_enters_into_Search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6446612460,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click Search button",
+            "match": {
+              "location": "GoogleSearch_StepDefinitions.user_Click_Search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User Test Google Search page",
+    "description": "",
+    "id": "user-test-google-search-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/GoogleSearch.feature"
+  }
+]
