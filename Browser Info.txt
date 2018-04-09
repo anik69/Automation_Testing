@@ -1,0 +1,7 @@
+Firefox - 51.0.1
+https://addons.mozilla.org/en-US/firefox/addon/element-locator-for-webdriv/
+https://addons.mozilla.org/en-US/firefox/addon/firepath/
+https://addons.mozilla.org/en-US/firefox/addon/firebug/
+
+Chrome
+https://chrome.google.com/webstore/detail/xpath-helper/hgimnogjllphhhkhlmebbmlgjoejdpjl?hl=en
